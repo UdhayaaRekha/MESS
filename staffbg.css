@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image.png'); /* Use your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    background-color: #781e30;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 50px; /* Increased margin for more space */
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 40px;
+    background-color: #781e30;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #5e1623;
+}

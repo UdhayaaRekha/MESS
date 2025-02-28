@@ -1,0 +1,127 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('boyshostel.jpeg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #781e30;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .menu-icon {
+    background-color: #781e30;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #5e1623;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #781e30;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 150px;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #5e1623;
+}
+
+.dropdown a:hover {
+    background-color: #5e1623;
+}
+
+.dropdown a:last-child {
+    border-bottom: none;
+}
+
+/* Content Styles */
+.content {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.content h1 {
+    background-color: #781e30;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.message-box {
+    margin-top: 30px;
+    background-color: #781e30;
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.message-box p {
+    font-size: 18px;
+}
+
+/* Button Styles */
+.menu-buttons {
+    margin-top: 30px;
+}
+
+.menu-btn {
+    background-color: #781e30;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #5e1623;
+}
